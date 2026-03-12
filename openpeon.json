@@ -1,0 +1,138 @@
+{
+  "cesp_version": "1.0",
+  "name": "guppi",
+  "display_name": "GUPPI",
+  "version": "1.0.0",
+  "description": "GUPPI AI assistant voice pack from the Bobiverse novels, generated with Qwen3 TTS voice cloning.",
+  "author": {
+    "name": "Rob Prouse",
+    "github": "rprouse"
+  },
+  "homepage": "https://github.com/rprouse/guppi-sound-pack",
+  "icon": "icons/guppi.png",
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "tags": ["sci-fi", "fiction", "bobiverse", "ai"],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/status_ready.wav", "label": "STATUS: Ready", "sha256": "4a737fd0d33d8fb14a82ec52c5328d83f6a72fd94b299cd5667a74731d5f84cf" },
+        { "file": "sounds/guppi_ready.wav", "label": "GUPPI Ready", "sha256": "b3e79c47551e2298e0b8a2aae6f602f9505df62854eff092e558c79e1ef2350d" },
+        { "file": "sounds/bob1_online.wav", "label": "Bob-1 online", "sha256": "d7eaa7932add00fde30a30e0ab1953e0db586c943bfa9721585628628cee5693" },
+        { "file": "sounds/status_report.wav", "label": "STATUS REPORT", "sha256": "4d79df675dcb7e4b1e3c296e3378d95ed35f03c03630a8c2d1187653c4c73ea9" },
+        { "file": "sounds/surge_drive_online.wav", "label": "SURGE drive online", "sha256": "3c3ae8430577a8bac4881a09a462d891a14eb3a7e3d2604380b5afb1ee4c5867" },
+        { "file": "sounds/we_have_arrived.wav", "label": "We have arrived", "sha256": "d8593031d76f12e7f69e1f980897879c3d84f3536b534afbd5882fd91ca7fc42" },
+        { "file": "sounds/transfer_of_replicant_hardware_to.wav", "label": "Transfer of replicant hardware to your new ship is complete. You are now Heaven-1A", "sha256": "b5020f525d94c9fefdf5ab38470f284b7136332b1cdf451b230d191d3172ef6e" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/noted.wav", "label": "Noted", "sha256": "47c34a0f388cf431294ff8b24e13417ec5df051878cc7d75f1acacdb17d31230" },
+        { "file": "sounds/understood.wav", "label": "Understood", "sha256": "38c7a618f6cfeb27973e2d5059072ee8d17be9295080d1bcda0ce61bdd2427e9" },
+        { "file": "sounds/acknowledged.wav", "label": "Acknowledged", "sha256": "8e76fefcc73e39c4637c25418d41f50acc9bb417d8dafd8bd4fb15b24aafe711" },
+        { "file": "sounds/i_exist_to_serve.wav", "label": "I exist to serve", "sha256": "2daaa72e652ff3f0432690b0c9cc67f35fa3e948fbb2930e63b03b439464414b" },
+        { "file": "sounds/your_wish_is_my_command.wav", "label": "Your wish is my command", "sha256": "2de3c133525ff91bf1d9dac08fef07f6f1c318304ec4c865b5b1baf8f842b833" },
+        { "file": "sounds/by_your_command.wav", "label": "By your command", "sha256": "2a1af83c5765dc1f3e6e4b22c37bc9b4877c43fabc92403d30a4eab1906cd3e4" },
+        { "file": "sounds/aye_aye_sir.wav", "label": "Aye aye sir", "sha256": "5f1a5e0d9e4a7331aa1c19dbcd9c9dac44d73b821184d5855c6e49055d8aec4b" },
+        { "file": "sounds/aye_sir.wav", "label": "Aye sir", "sha256": "1b860d5d992d9ac66a39cd1b5a38c0320b727acf807f97ec576072baa56f78a0" },
+        { "file": "sounds/aye.wav", "label": "Aye", "sha256": "2f1f054292f5c50cbdab4554a474b7b15a0958f3b91de6f1d7396e8c9837ff2d" },
+        { "file": "sounds/querying_ami_team_one_moment.wav", "label": "Querying AMI team. One moment", "sha256": "24ba2976196824c0d3e3083d9bdd2cbfd3cded7840b7b2048ea0906987753929" },
+        { "file": "sounds/roamer_systems_dispatched_full_evaluation.wav", "label": "Roamer systems dispatched. Full evaluation will take several minutes", "sha256": "e040145dc04807fd96f56e9b23672339700db276f6dbcc90ad0813271fafe08d" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/done.wav", "label": "Done", "sha256": "0aa904aca10b4415ebc46d4395a65d86c24cb8291d02be4a29ff7cb0258ea5a9" },
+        { "file": "sounds/investigation_complete_file_uploaded.wav", "label": "Investigation complete. File uploaded", "sha256": "96d4eb96d93c5f75c8d110519ebdee354381565ea3c9b74ec5cd772afa97cc12" },
+        { "file": "sounds/scans_are_complete.wav", "label": "Scans are complete", "sha256": "e07bf9a00de8320b5943264f8e14451db6509fc69f168baecaff82ebbd176804" },
+        { "file": "sounds/the_code_scan_is_complete.wav", "label": "The code scan is complete. No further trojans, triggers, or interrupts not explainable by legitimate requirements", "sha256": "5f39a953fb1ba71bfdf53583767be7f9052bf05d7af717af0013e830e85a3aa7" },
+        { "file": "sounds/no_issues_detected_all_parameters.wav", "label": "No issues detected. All parameters nominal", "sha256": "968230683a470b1c3813b2b9e181899db1d96ad3d278fc8551e3dea5de64b2a3" },
+        { "file": "sounds/affirmative_the_space_station_is.wav", "label": "Affirmative. The space station is fully operational. AMI controller is now in charge. The report was handed off for transmission", "sha256": "6f1d13b24324674817e800eaf0f6ccb880e8b725cca2d953587ee0d9ab5a4ab2" },
+        { "file": "sounds/orbital_insertion_was_successful_we.wav", "label": "Orbital insertion was successful. We are coming up on a point directly on the other side of Earth from the Enemy ships", "sha256": "aa9063227efdd9229fe8f50cedb43d3ed0951153d1adbb4681a626e673c9ac5e" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/there_is_a_problem.wav", "label": "There is a problem", "sha256": "96fbec0de65698dd72d107d3a8234fc792c8eeae1bbe672b0e7c94cd1c7171c7" },
+        { "file": "sounds/negative_the_transmitted_backup_was.wav", "label": "Negative. The transmitted backup was cut off before completion", "sha256": "480103b2d0b54813d35da3e2c932b6c96cb3a3ff7cda41d6b0bd25799c06fda7" },
+        { "file": "sounds/no_connection.wav", "label": "No connection", "sha256": "70cc33e3b505ec657be88d489d5f52490ba5e59bcaecf2d5217f3c4ddabba694" },
+        { "file": "sounds/connection_refused.wav", "label": "Connection refused", "sha256": "eeb92e5c0d613b03ea3ecf19d8fd535e346f9598105a21fe9b7636abe553b837" },
+        { "file": "sounds/mover_plates_are_offline.wav", "label": "Mover Plates are offline", "sha256": "364252ac0d15fd46bd7ca394a45b06618a96545a952b4b3969af8869ac2de3a4" },
+        { "file": "sounds/plate_amis_have_lost_synchronization.wav", "label": "Plate AMIs have lost synchronization", "sha256": "c2eaac25a08f340d14ffee626bd2fb16bbe59479634bccdca03d28339cf67ea8" },
+        { "file": "sounds/skippy_connections_are_down.wav", "label": "Skippy connections are down", "sha256": "5cd3531ad32dcb14844ed37b52cb88e1feaf180f235eb44cd21ab088c9f6e3ee" },
+        { "file": "sounds/all_of_them.wav", "label": "All of them", "sha256": "204b787373deb96a6d8bc985e68c30e81f62d7a9ec61c35f3fed09b93b1b38e7" },
+        { "file": "sounds/interface_with_other_vessel_was.wav", "label": "Interface with other vessel was terminated abruptly. No shutdown handshake", "sha256": "d51816e9af96fb2e1d2b9b64bb15cad9283103aafad8042f6138a5b8dda0b288" },
+        { "file": "sounds/sorry.wav", "label": "Sorry", "sha256": "6cfdd202e14554af2697db7412b0e031bf0a494fc2a3f6f5a7231e4b4eb7095d" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/incoming_message.wav", "label": "Incoming message", "sha256": "10cd226b10368720d60fbb8be07c2cbd6c20f0b3b3a459653da5ea1e23053994" },
+        { "file": "sounds/incoming_message_from_linus.wav", "label": "Incoming Message from Linus", "sha256": "c5cc41192bf1cdab56a817f12ac0fb53622ea5ce5b98526eec623906f652e103" },
+        { "file": "sounds/incoming_call.wav", "label": "Incoming call", "sha256": "03adfd9be4c192c91adef30632835c2cfc28e90d4e1308a3d636d1da41c615f4" },
+        { "file": "sounds/incoming_scut_communication_from_alpha.wav", "label": "Incoming SCUT Communication from Alpha Centauri", "sha256": "51b27d332786fca1d7633eea179bf8881a76ec2582634dbac42f799632307878" },
+        { "file": "sounds/we_are_being_hailed.wav", "label": "We are being hailed", "sha256": "460c08ec8f02c8c75f8e7ff91c6128924577a2d9114b5b4fbb6c63ad62406be7" },
+        { "file": "sounds/you_rang.wav", "label": "You rang?", "sha256": "bd0eefda11c09e89f29b845b1eae33c74a81032633c4a9a2e4ad461fb8badedd" },
+        { "file": "sounds/reminder_moot_starts_soon.wav", "label": "Reminder: Moot starts soon", "sha256": "5070fff09d9c512ed280258ac5917353780e77879e13523b79229d611184791b" },
+        { "file": "sounds/you_have_a_communications_request.wav", "label": "You have a communications request from Lenny", "sha256": "3461af268e28fc6af181cccaa0776f1b1cb48939793dbb4f190512b229ab9c61" },
+        { "file": "sounds/deploy_mining_and_survey_drones.wav", "label": "Deploy mining and survey drones?", "sha256": "1d2f01985cfcd939ba419a5fc43db4f8018a1d86410569fc9971e71fe86a1a67" },
+        { "file": "sounds/all_printer_groups_are_currently.wav", "label": "All printer groups are currently engaged in producing parts for the orbiting farms. Do you want to bump this activity?", "sha256": "6fae405c0307fd7933bd41e5a75852cbdcfaf7e4c7f1926e6850f1e342112763" },
+        { "file": "sounds/already_on_the_list_bump.wav", "label": "Already on the list. Bump it up?", "sha256": "e7133ffe05dd30c7cb252fa43618c72c5fdf1dacc56a77a0f3d0125cefda8c0d" },
+        { "file": "sounds/see_for_yourself.wav", "label": "See for yourself", "sha256": "8b29397a14d0121f4fafc802b5940d57743f2e2b06814221a02e41d956686d9f" },
+        { "file": "sounds/alert_activity_outside_normal_parameters.wav", "label": "Alert! Activity outside normal parameters!", "sha256": "6a19e4e93e9e5e4f2338b7ceeaa5bde9225a81ae9c41e38566aac8c0fa834cd2" },
+        { "file": "sounds/astronomical_monitoring_has_picked_up.wav", "label": "Astronomical monitoring has picked up an anomaly. You asked to be advised immediately", "sha256": "4c8b75282f144290cb708a20ea8640868b243eafaf01cc4523c374f992fa8e90" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/all_resources_are_at_maximum.wav", "label": "All resources are at maximum", "sha256": "540d553dbc0f739d276fdda231fc24d9c871e10935f09f45b0155e6ec1b47d77" },
+        { "file": "sounds/maximum_memory_installed_usage_at.wav", "label": "Maximum memory installed. Usage at 94%. Despite earlier instructions, some ship functions have had to be moved to the two added memory cards", "sha256": "7756748e615095551f2dc04aa2165cff7125a279093d012a4ca93622a942a5f4" },
+        { "file": "sounds/memory_usage_averaging_86_available.wav", "label": "Memory usage averaging 86%. Available slots: 2. Spare memory boards: 4", "sha256": "dc055d73235f119566054d84a96607a15f4a539139a9a36afc28f20bc28376e7" },
+        { "file": "sounds/recipient_indicates_he_is_at.wav", "label": "Recipient indicates he is at max capacity", "sha256": "ef4a4b96b4cc502badc55541dfd7cdb5ea2927842651576b7a9d997eabbfcb51" },
+        { "file": "sounds/above_my_pay_grade.wav", "label": "Above my pay grade", "sha256": "7b44a48e388a7280b3fb02a2c290a187fdf48e3b8097d59169f6a39d91804bf4" },
+        { "file": "sounds/insufficient_information.wav", "label": "Insufficient information", "sha256": "81afcc29427f0e4fd849217a29b3c4287c3f9699ad3ec5ab9f5c430dcc0fa0fc" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/i_am_not_programmed_to.wav", "label": "I am not programmed to have an opinion", "sha256": "b023e82f2cef8482f91ef547b613219fc4dd27ff17a1d4fa252a89a02d477bd3" },
+        { "file": "sounds/roamers_are_not_intended_as.wav", "label": "ROAMers are not intended as exploration units", "sha256": "f3b846136ff7a56bdf0cf43011eacc7a992740a8926a389d122969ff30db595b" },
+        { "file": "sounds/not_quite.wav", "label": "Not quite", "sha256": "a9da0934e2287082dd442299c38edc71163ad1b57469e883a6f9932266771d80" },
+        { "file": "sounds/noted_however_replication_is_a.wav", "label": "Noted. However, replication is a higher priority", "sha256": "62ee7341322742618bc465da391bcee5ab91d02f37250bd509609a9b92a0468d" },
+        { "file": "sounds/this_will_result_in_another.wav", "label": "This will result in another delay to the armaments project. I remind you that you have assigned that project high priority", "sha256": "5404e3c793698cff86b0f70c64f28ce0ad1a179449f4745631dfb8c7ce90304b" },
+        { "file": "sounds/reasonable.wav", "label": "Reasonable", "sha256": "ef92691542b7684d600c30fdedcbb7b9990ce0d0adcbaef0f443930baaa93b1f" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/shutdown.wav", "label": "Shutdown", "sha256": "72cfd896a5ea3f574201fc1f220127d5f5d49995ec83fd00ade22d25fecec48d" },
+        { "file": "sounds/shutdown_in_five_seconds.wav", "label": "Shutdown in five seconds", "sha256": "7c8a0fefed4bc7fdc12fb5d26e5a50234f8e048b46d36ae02578226ced27c5a8" },
+        { "file": "sounds/shutdown_begin_retrieval.wav", "label": "Shutdown. Begin retrieval", "sha256": "fcab776c977f354381a1bf5f18a17c5ebadfcac3b98393249ae3cf59aab57abd" },
+        { "file": "sounds/feedback_disabled_by_user_request.wav", "label": "Feedback disabled by user request", "sha256": "b77ff38616107e4ec10f6922a9392b23b938e77527f002bde76ed3ff62afed4d" }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        { "file": "sounds/18_hours_26_minutes.wav", "label": "18 hours 26 minutes", "sha256": "b5b093df5f19fe639173a31a8a34f56d9c275ec731f1da1820799148d705b7c3" },
+        { "file": "sounds/five_minutes_out.wav", "label": "Five minutes out", "sha256": "0c895065a682e19247294cc935628fa1fc5502e1b9036f63cbb23a9b1ddddcf1" },
+        { "file": "sounds/contact_in_45_seconds.wav", "label": "Contact in 45 seconds", "sha256": "f9358985e6bbc6310aa002c8b3ee226d452107fc5313b6ba72fc1213e9ac09f6" },
+        { "file": "sounds/coming_up_on_alignment_two.wav", "label": "Coming up on alignment. Two minutes to shutdown", "sha256": "9acd42ddbfdfea8ceca1d64bfd42534453a8a64dc7179af58846b5116c5ebc5c" },
+        { "file": "sounds/ten_minutes_plus_or_minus.wav", "label": "Ten minutes, plus or minus two. Atmospheric entry is the limiting factor and source of largest uncertainty", "sha256": "e0a42a667ed6bd953ac2aa85870358c9ea917947c5387ae8807576608ad24b01" },
+        { "file": "sounds/relay_station_40_complete_two.wav", "label": "Relay station: 40% complete. Two months to completion", "sha256": "3d0f2ec796760e88e6ac8d4bbf83655cd1a5c44ee99541dcfc8c99b62e28fd14" },
+        { "file": "sounds/asteroid_belt_scan_50_completed.wav", "label": "Asteroid belt scan 50% completed. Six locations identified with significant ore suitable for mining", "sha256": "c096e9b8cb80d2baad1810cac7b4cf31430bee0aa513536fa57ed419a40619a1" },
+        { "file": "sounds/resources_scan_50_complete_minimum.wav", "label": "Resources scan 50% complete. Minimum resources have already been catalogued", "sha256": "6c82060172fe11ba2c1e9f88809137d24057890dea49b54ee6afb6ad86a454ce" },
+        { "file": "sounds/roamer_systems_dispatched_full_evaluation.wav", "label": "Roamer systems dispatched. Full evaluation will take several minutes", "sha256": "e040145dc04807fd96f56e9b23672339700db276f6dbcc90ad0813271fafe08d" },
+        { "file": "sounds/heaven_2_through_5_90.wav", "label": "HEAVEN 2 through 5: 90% complete. 5 days to completion", "sha256": "d16c21cb43484cdaad0292a2f060618d1cd4d46ef4b24103aa036d6b9dfde4b9" }
+      ]
+    }
+  },
+  "category_aliases": {
+    "greeting": "session.start",
+    "acknowledge": "task.acknowledge",
+    "complete": "task.complete",
+    "error": "task.error",
+    "permission": "input.required",
+    "resource_limit": "resource.limit",
+    "annoyed": "user.spam"
+  }
+}
