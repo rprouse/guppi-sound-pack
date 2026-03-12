@@ -12,7 +12,12 @@
   "icon": "icons/guppi.png",
   "license": "CC-BY-NC-4.0",
   "language": "en",
-  "tags": ["sci-fi", "fiction", "bobiverse", "ai"],
+  "tags": [
+    "sci-fi",
+    "fiction",
+    "bobiverse",
+    "ai"
+  ],
   "categories": {
     "session.start": {
       "sounds": [
